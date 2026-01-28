@@ -1,0 +1,137 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page */
+body {
+  background-color: #f4f6f8;
+}
+
+/* Header */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.top-bar h1 {
+  font-size: 22px;
+  color: #333;
+}
+
+/* Navigation */
+.nav-links a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #555;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+/* Main app container */
+.app {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+/* Balance section */
+.balance {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.balance h2 {
+  font-size: 18px;
+  color: #777;
+}
+
+#balance {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2ecc71;
+  margin-top: 8px;
+}
+
+/* Form */
+.transaction-form {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.transaction-form input {
+  flex: 1;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.transaction-form button {
+  padding: 10px 18px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.transaction-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Transactions */
+.transactions {
+  list-style: none;
+}
+
+.transactions li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #2ecc71;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+/* THIS is the key line */
+.nav-links {
+  margin-left: auto;
+}
+
+.nav-links a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #555;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
